@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #F99501;
+}
+.hero-section{
+    /* min-height: 100vh; */
+    background-image: url(orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jhalar{
+    width: 220px;
+    margin-bottom: -200px;
+}
+.para-audio{
+    margin-left: 15rem ;
+}
+
+.hero-section p{
+    font-size: 46px;
+    
+    font-family: "Salsa", cursive;
+    max-width: 550px;
+   
+    
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+
+     }
+
+     .audio-container{
+        background-color: #FBD8A4;
+       max-width: 500px;
+       border-radius: 45px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       justify-content: space-between;
+       /* padding: 10px; */
+       padding-left: 6px;
+       font-family: "Salsa", cursive;
+     }
+
+     
+     .lakshmi-ganesha-section1{
+        background-color: #F99501;
+        padding-top: 1em;
+        padding-inline: 1rem;
+     }
+
+     .lakshmi-ganesha-img{
+        display: block;
+        margin-inline: auto;
+        max-width: 900px;
+        width: 100%;
+     }
+     .horizontal-divider{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 800px;
+            margin-inline: auto;
+            margin-bottom: 5px;
+     }
+     .lakshmi-ganesha-section1{
+        font-family: "Style Script", cursive;
+        font-weight: 400;
+        margin-bottom: 0px;
+        
+     }
+     .lakshmi-ganesha-section1 h2{
+        font-family: "Style Script", cursive;
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;   
+     }
+
+     .horizontal-line{
+        height: 5px;
+        background-color: #FBD8A4;
+        width: 470px;
+     }
+     .circle{
+        width: 10px;
+        height: 10px;
+        background-color: #FBD8A4;
+        border-radius: 50%;
+        flex-shrink: 0;
+     }
+     .white-card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .white-card{
+        font-family: "Salsa", cursive;
+        background-color: white;
+        max-width: 550px;
+        padding: 4rem;
+        border-radius: 22px;
+  
+     }
+     .girl-img{
+        width: 250px;
+        margin-left: -6rem;
+     }
+     .white-card{
+       font-size: 2rem;
+     }
+     .lakshmi-ganesha-card{
+        background-color: white;
+        padding: 4rem;
+        border-radius: 24px;
+        max-width: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-inline: auto;
+        
+     }
+     .lakshmi-ganesha-card img{
+        
+        max-width: 50%;
+     }
+
+     .happy-line{
+        font-family: "Salsa", cursive;
+        margin-left: 15%;
+        font-size: 28px
+        
+     }
+     .last-line{
+        font-family: "Style Script", cursive;
+       
+     }
+     
+
+     @media(max-width:900px){
+        .deepak-2{
+            display: none;
+        }
+        .deepak-1{
+            display: block;
+            margin-left: auto;
+            max-width: 80%;
+        }
+        .para-audio p{
+           font-size: 26px;
+           max-width: 260px;
+        }
+        .para-audio{
+            margin-left: 2rem ;
+        }
+        .write-p{
+            max-width: 300px;
+            font-size: 20px;
+        }
+        .jhalar{
+            margin-bottom: 0;
+        }
+        .audio-span{
+            display: none;
+        }
+        .svg2{
+            display: none;
+        }
+        .audio-container{
+           margin-right: 20px;
+           max-width: 300px;
+        }
+
+        .lakshmi-ganesha-section1 h2{
+            font-size: 22px;
+         }
+
+         .white-card p{
+           font-size: 1rem;
+         }
+         .white-card {
+           padding-block: 1rem;
+           padding-left: 1.2rem;
+           
+          }
+         .girl-img{
+            width: 150px;
+            margin-left: -6rem;
+         }
+
+         .happy-line{
+            font-family: "Salsa", cursive;
+            margin-left: 5%;
+            font-size: 12px;
+            
+         }
+     }
+
+
+     
